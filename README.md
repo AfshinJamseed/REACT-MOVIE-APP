@@ -8,3 +8,16 @@ More cool react projects incomming
 The project contains a Home page with lots of popular movies fetched from a public url
 
 the other thing is i am 10th standard so i cant work on many projects.
+the other thing is i am 10th standard so i cant work on many projects.
+the other thing is i am 10th standard so i cant work on many projects.
+the other thing is i am 10th standard so i cant work on many projects.
+the other thing is i am 10th standard so i cant work on many projects.
+the other thing is i am 10th standard so i cant work on many projects.
+the other thing is i am 10th standard so i cant work on many projects.
+the other thing is i am 10th standard so i cant work on many projects.
+the other thing is i am 10th standard so i cant work on many projects.
+the other thing is i am 10th standard so i cant work on many projects.
+the other thing is i am 10th standard so i cant work on many projects.
+the other thing is i am 10th standard so i cant work on many projects.
+the other thing is i am 10th standard so i cant work on many projects.
+Sorry for the copy pasting
