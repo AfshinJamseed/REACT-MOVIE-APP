@@ -1,7 +1,7 @@
 .navbar {
-  background-color: #000000;
-  padding: 1rem 2rem;
   display: flex;
+  background-color: var(--bg-card);
+  padding: 1rem 2rem;
   justify-content: space-between;
   align-items: center;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);

@@ -1,15 +1,15 @@
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import '../css/Navbar.css'
 function NavBar() {
     
     return (
         <div className="navbar">
             <div className="navbar-brand">
-                <Link to="/">Movie App</Link>
+                <NavLink to="/">Anime App</NavLink>
             </div>
             <div className="navbar-links">
-                <Link to="/" className="nav-link">Home</Link>
-                <Link to="/favorites" className="nav-link">Favorites</Link>
+                <NavLink to="/" className="nav-link">Home</NavLink>
+                <NavLink to="/favorites" className="nav-link">Favorites</NavLink>
             </div>
         </div>
     )

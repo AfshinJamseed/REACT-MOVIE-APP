@@ -4,10 +4,10 @@ import { useMovieContext } from "../context/MovieContext";
 
 function MovieCard({ movie }) {
   const { isFavorite, addToFavorites, removeFromFavorites } = useMovieContext();
-  const favorite = isFavorite(movie.id);
+  const favorite = isFavorite(movie.mal_id);
   function onFavoriteClick(e) {
     e.preventDefault();
-    if (favorite) removeFromFavorites(movie.id);
+    if (favorite) removeFromFavorites(movie.mal_id);
     else addToFavorites(movie);
   }
 
@@ -16,7 +16,7 @@ function MovieCard({ movie }) {
       <div className="movie-card ">
         <div className="movie-poster">
           <img
-            src={`https://image.tmdb.org/t/p/w500${movie.poster_path}`}
+            src={movie.images?.jpg?.image_url}
             alt={movie.title}
           />
           <div className="movie-overlay">
@@ -29,8 +29,8 @@ function MovieCard({ movie }) {
           </div>
         </div>
         <div className="movie-info">
-          <h3>{movie.title}</h3>
-          <p>{movie.release_date?.split("-")[0]}</p>
+          <h3>{movie.title_english || movie.title}</h3>
+          <p>{movie.year}</p>
         </div>
       </div>
     </>

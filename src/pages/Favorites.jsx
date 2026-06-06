@@ -1,4 +1,5 @@
 import "../css/Favorites.css";
+import "../css/Home.css";
 import favoriteMovies from "../components/MovieCard";
 import { useState } from "react";
 import MovieCard from "../components/MovieCard";
@@ -10,9 +11,9 @@ function Favorites() {
     return (
       <div className="favorites">
         <h2>Your Favorites</h2>
-        <div className="movies-grid">
+        <div className="anime-grid">
           {favorites.map((movie) => {
-            return <MovieCard movie={movie} key={movie.id} />;
+            return <MovieCard movie={movie} key={movie.mal_id} />;
           })}
         </div>
       </div>
